@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/captain-s-log-rss/captain-s-log-wine-legs/","noteIcon":"1","created":"2025-11-26T23:45:40.176-05:00","updated":"2025-12-04T21:43:51.931-05:00"}
+{"dg-publish":true,"permalink":"/captain-s-log-rss/captain-s-log-wine-legs/","noteIcon":"1","created":"2025-11-26T23:45:40.176-05:00","updated":"2025-12-04T23:33:11.521-05:00"}
 ---
 
 # 11.26.25
@@ -12,4 +12,4 @@ I went to the museum to see Monet in Venice. It was absolutely amazing. Just rea
 Also sorry the links don't work on my other two logs I'm very new to Obsidian and I'm not changing it just in case Quartz posts them all at once and gets me marked as spam. 
 
 ---
-[I can't find the original I'm distraught](https://www.tumblr.com/wildpenguinsandhawkey/173016634454/vessel-with-two-feet-culture-near-eastern?redirect_to=%2Fwildpenguinsandhawkey%2F173016634454%2Fvessel-with-two-feet-culture-near-eastern)     ![vessel with two feet from the side.jpg](/img/user/Media%20Vault/vessel%20with%20two%20feet%20from%20the%20side.jpg) ![the vessel and I.png](/img/user/Media%20Vault/the%20vessel%20and%20I.png)
+[I can't find the original I'm distraught](https://www.tumblr.com/wildpenguinsandhawkey/173016634454/vessel-with-two-feet-culture-near-eastern?redirect_to=%2Fwildpenguinsandhawkey%2F173016634454%2Fvessel-with-two-feet-culture-near-eastern)     ![vessel with two feet from the side.jpg](/img/user/Media%20Vault/vessel%20with%20two%20feet%20from%20the%20side.jpg)
