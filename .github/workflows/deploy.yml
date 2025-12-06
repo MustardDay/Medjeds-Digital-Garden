@@ -20,13 +20,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
             cache: 'npm'
-      - uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: "Use node version"
-        uses: actions/setup-node@v3
-        with:
-             cache: 'npm'
       - name: "Install dependencies"
         run: npm install
       - name: "Build"
