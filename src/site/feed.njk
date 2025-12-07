@@ -16,18 +16,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>{{ metadata.title }}</title>
-    <link>{{ metadata.base | addPathPrefixToFullUrl }}</link>
-    <atom:link href="{{ permalink | htmlBaseUrl(metadata.base) }}" rel="self" type="application/rss+xml" />
+    <title>{{ meta.siteName}}</title>
+    <link>{{ meta.siteBaseUrl | addPathPrefixToFullUrl }}</link>
+    <atom:link href="{{ permalink | meta.siteBaseUrl }}" rel="self" type="application/rss+xml" />
     <description>{{ metadata.description }}</description>
     <language>{{ metadata.language or page.lang }}</language>
     {%- for post in collections.posts | reverse %}
     {%- set absolutePostUrl = post.url | htmlBaseUrl(metadata.base) %}
     <item>
-      <title>{{ post.data.title }}</title>
-      <link>{{ absolutePostUrl }}</link>
-      <description>{{ post.content | renderTransforms(post.data.page, metadata.base) }}</description>
-      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <title>
+{% if note.title %}{{ note.title }}
+                {% else %}{{ note.fileSlug }}
+                {% endif %}
+</title>
+      <link>{{ note.url | url }}</link>
+      <description>{{ note.content | renderTransforms(note.data.page, metadata.base) }}</description>
+    <updated>  {%if note.data.updated %}{{ note.data.updated | dateToZulu }}{%else%}{{ note.date | dateToRfc3339 }}{%endif%}</updated>
+           
       <dc:creator>{{ metadata.author.name }}</dc:creator>
       <guid>{{ absolutePostUrl }}</guid>
     </item>
