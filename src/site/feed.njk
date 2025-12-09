@@ -14,6 +14,7 @@
         <lastBuildDate>{{ collections.notes | getNewestCollectionItemDate | dateToRfc3339 }}</lastBuildDate>
         <atom:link href="{{ meta.siteBaseUrl }}{{ permalink }}" rel="self" type="application/rss+xml" />
         {%- for note in collections.note | reverse %}
+{%- if note.data.tags and 'rss' in note.data.tags -%}
         <item>
             <title>
                 {%- if note.data.title -%}{{ note.data.title }}
